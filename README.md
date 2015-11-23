@@ -73,13 +73,17 @@ As I there are no further outliers I value 1 SD either side of the mean equally 
 > hist(sales_value.z)
 ```
 
-Now that the variable is standardised I can have a look at the log
+Now that the variable is standardised I can have a look at the log distribution
 ```R
 > sales_value.ln  <- log(sdata$sales_value + 1)
 > describe(sales_value.ln)
 > hist(sales_value.ln)
 ```
+Turns out that this has a log normal distrobution.
 
 Look at the trend: formulate hypothesis', areas of opportunity and recommendations from this
+
+##Overall points
+(1) Sumary wk 26: 2% points w/w  acceleration in cart value (2) Opptertunities: Region 7 shows potential with a high avg. cart value (3) Threats: Region 5 has seen a higher than normal drop in cart value in wk 23 - we need to understand this.
 
 Create a presentation!
