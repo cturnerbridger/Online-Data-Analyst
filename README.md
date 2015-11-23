@@ -84,10 +84,15 @@ Turns out that this has a lognormal distribution.
 
 Look at the trend: formulate hypothesis', areas of opportunity and recommendations from this
 
-##Summary
+## Summary
 * Trend wk 26: 2 ppt w/w acceleration in cart value
 * Opportunities: Region 7 shows potential with a high avg. cart value
 * Threats: Region 5 has seen a higher than normal drop in cart value in wk 23 - we need to understand this.
 
+## Next Steps
 Create a presentation!
 
+## Points I would improve if I were to do this exersise again 
+* I would not use MS Excel to delete the outlier. This was an easy fix; however, Excel is not a useful tool when data becomes large and cumbersome. My edits have also not been recorded in Git. Instead I would either (1) learn how to use the ddplyr + strings package in R and split the data to remove the outlier, or (2), learn basic python to achieve this end.
+* I would spend more time to analyse the time series data, including working with dates in R.
+* I would use the ggplot package to make my graphs. The reason being that it will be a longer term time saving solution to creating beautiful data.
