@@ -1,7 +1,8 @@
 # Online-Data-Analyst
 Notes + code (using the R statistical package) from a online data analyst job application
 
-Link to .csv file - n.b. this is dummy data:
+Link to csv file (n.b. this is dummy data):
+
 https://www.dropbox.com/s/2worqbd25p9imx0/Online%20analyst%20test%20-%20Dummy%20data.csv?dl=0
 
 ###Work Flow / Process
@@ -67,7 +68,7 @@ Basic plot for the variable 'sales_value'
 > hist(sdata$sales_value)
 ```
 
-As I there are no further outliers I value 1 SD either side of the mean equally and I can standardise the variable 'sales_value'
+As there are no further outliers value 1 SD either side of the mean equally and I can standardise the variable 'sales_value'
 ```R
 > sales_value.z  <- scale(sdata$sales_value)
 > hist(sales_value.z)
@@ -79,11 +80,14 @@ Now that the variable is standardised I can have a look at the log distribution
 > describe(sales_value.ln)
 > hist(sales_value.ln)
 ```
-Turns out that this has a log normal distrobution.
+Turns out that this has a lognormal distribution.
 
 Look at the trend: formulate hypothesis', areas of opportunity and recommendations from this
 
 ##Overall points
-(1) Sumary wk 26: 2% points w/w  acceleration in cart value (2) Opptertunities: Region 7 shows potential with a high avg. cart value (3) Threats: Region 5 has seen a higher than normal drop in cart value in wk 23 - we need to understand this.
+*Summary wk 26: 2 ppt w/w acceleration in cart value
+*Opportunities: Region 7 shows potential with a high avg. cart value
+*Threats: Region 5 has seen a higher than normal drop in cart value in wk 23 - we need to understand this.
 
 Create a presentation!
+
