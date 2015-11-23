@@ -84,10 +84,10 @@ Turns out that this has a lognormal distribution.
 
 Look at the trend: formulate hypothesis', areas of opportunity and recommendations from this
 
-##Overall points
-*Summary wk 26: 2 ppt w/w acceleration in cart value
-*Opportunities: Region 7 shows potential with a high avg. cart value
-*Threats: Region 5 has seen a higher than normal drop in cart value in wk 23 - we need to understand this.
+##Summary
+* Trend wk 26: 2 ppt w/w acceleration in cart value
+* Opportunities: Region 7 shows potential with a high avg. cart value
+* Threats: Region 5 has seen a higher than normal drop in cart value in wk 23 - we need to understand this.
 
 Create a presentation!
 
